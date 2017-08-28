@@ -1,0 +1,14 @@
+/*
+Theme Name: Sparkling-Child
+Theme URI: https://github.com/edrury/sparkling-child
+Author: Eric Drury
+Author URI: https://github.com/edrury
+Description: Child theme of Sparkling
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: sparkling
+Text Domain: sparkling-child
+Tags: green, light, white, gray, black, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, photoblogging, left-sidebar, translation-ready, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, theme-options, threaded-comments
+*/
+@import url("../sparkling/style.css");
