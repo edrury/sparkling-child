@@ -12,3 +12,59 @@ Text Domain: sparkling-child
 Tags: green, light, white, gray, black, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, photoblogging, left-sidebar, translation-ready, custom-background, custom-colors, custom-menu, featured-images, full-width-template, post-formats, theme-options, threaded-comments
 */
 @import url("../sparkling/style.css");
+
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+a {
+  outline-style: none !important;
+}
+
+#logo img {
+  max-width: 200px;
+}
+
+@media (min-width: 768px) {
+  #logo img {
+    max-width: 300px;
+  }
+}
+
+.site {
+  min-height:100%;
+  position:relative;
+}
+
+.site-content {
+  padding-bottom:100px; /* Height of the footer element */
+}
+
+.site-footer {
+  width:100%;
+  height:51.4px;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+.simple-page header {
+  display: none;
+}
+
+.simple-page .entry-content {
+  color: white;
+  background: black;
+}
+
+.simple-page footer {
+  display: none;
+}
+
+.simple-page .post-inner-content {
+  padding: 0px;
+  border: 0px;
+}
