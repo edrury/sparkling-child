@@ -51,20 +51,20 @@ a {
   left:0;
 }
 
-.simple-page header {
+.page-template-simple-page .entry-header {
   display: none;
 }
 
-.simple-page .entry-content {
+.page-template-simple-page .entry-content {
   color: white;
   background: black;
 }
 
-.simple-page footer {
+.page-template-simple-page footer {
   display: none;
 }
 
-.simple-page .post-inner-content {
+.page-template-simple-page .post-inner-content {
   padding: 0px;
   border: 0px;
 }
