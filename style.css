@@ -57,7 +57,11 @@ a {
 
 .page-template-simple-page .entry-content {
   color: white;
-  background: black;
+  background: none;
+}
+
+.page-template-simple-page .post-inner-content {
+  background: none;
 }
 
 .page-template-simple-page footer {
