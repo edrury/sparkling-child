@@ -72,3 +72,8 @@ a {
   padding: 0px;
   border: 0px;
 }
+
+.button:active:hover {
+  background-color: #bbbbbb !important;
+  color: black !important;
+}
