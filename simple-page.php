@@ -1,6 +1,7 @@
 <?php
 /*
 Template Name: Simple Page
+Template Post Type: post, page
 */
 /**
  * The template for displaying all pages.
