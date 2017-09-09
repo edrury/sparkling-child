@@ -5,7 +5,6 @@ add_action( 'after_setup_theme', 'sparkling_child_setup', 20 );
 
 function sparkling_child_setup() {
 	remove_action( 'wp_head', 'get_sparkling_theme_options', 10 );
-	add_filter( 'comments_open', 'tweakjp_rm_comments_att', 10 , 2 );
 }
 
 function sparkling_main_content_bootstrap_classes() {
@@ -18,10 +17,10 @@ function sparkling_main_content_bootstrap_classes() {
 	return 'col-sm-12 col-md-8';
 }
 
-function tweakjp_rm_comments_att( $open, $post_id ) {
-    $post = get_post( $post_id );
-    if( $post->post_type == 'attachment' ) {
-        return false;
-    }
-    return $open;
+function disable_media_comment( $open, $post_id ) {
+	if( get_post_type( $post_id ) == 'attachment' ) {
+		return false;
+	}
+	return $open;
 }
+add_filter( 'comments_open', 'disable_media_comment', 10 , 2 );
