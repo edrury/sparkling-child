@@ -69,3 +69,9 @@ a {
   padding: 0px;
   border: 0px;
 }
+
+@media (min-width: 769px) {
+  .dropdown-menu>li>a {
+    display: block;
+  }
+}
