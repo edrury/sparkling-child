@@ -75,3 +75,18 @@ a {
     display: block;
   }
 }
+
+.comments-area {
+  background-color: #f2f2f2;
+  padding: 45px 50px 45px 50px;
+}
+
+@media (max-width: 767px) {
+  .comments-area {
+    padding: 20px 25px;
+  }
+}
+
+.updated {
+  display: inherit;
+}
