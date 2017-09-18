@@ -90,3 +90,15 @@ a {
 .updated {
   display: inherit;
 }
+
+@media (max-width: 768px) {
+  .flex-caption {
+	display: inherit;
+    transform: scale(0.5);
+    transform-origin: left top;
+    top: 15px;
+  }
+  .flex-direction-nav {
+    display: none;
+  }
+}
