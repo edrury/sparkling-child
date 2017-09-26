@@ -25,9 +25,4 @@ function disable_media_comment( $open, $post_id ) {
 }
 add_filter( 'comments_open', 'disable_media_comment', 10 , 2 );
 
-function fix_mystickymenu_admin_head() {
-	echo '<style>#SnS_styles-tab > .style {display: block;}</style>';
-}
-add_action( 'admin_head', 'fix_mystickymenu_admin_head' );
-
 file_exists(__DIR__ . '/inc/woocommerce.php') AND require_once( __DIR__ . '/inc/woocommerce.php');
