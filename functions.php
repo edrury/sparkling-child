@@ -24,5 +24,3 @@ function disable_media_comment( $open, $post_id ) {
 	return $open;
 }
 add_filter( 'comments_open', 'disable_media_comment', 10 , 2 );
-
-file_exists(__DIR__ . '/inc/woocommerce.php') AND require_once( __DIR__ . '/inc/woocommerce.php');
